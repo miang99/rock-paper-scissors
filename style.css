@@ -5,15 +5,20 @@
 .header{
     width: 100%;
     text-align: center;
+    color: #342309;
 }
 body, html{
     margin: 0;
+}
+body{
+    height: 100hv;
+    background-color: #fb9902;
 }
 #playerChoice{
     margin: 40px auto;
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
     
 }
@@ -49,12 +54,14 @@ i{
     display: block;
 }
 #finalresult{
-    
+    font-size: 25px;
+    font-weight: bold;
 }
 #result{
     position: relative;
-    width: 50%;
+    width: 40%;
     margin: auto;
     display: none;
     text-align: center;
+
 }
